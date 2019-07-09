@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>HTML FORM</title>
+</head>
+<body>
+<h3>User Register</h3>
+<div style="border:1px solid #D0D0D0;width:400px;padding:10px;">
+    <form method = "Get" action="formProcessing.jsp">
+        User Name: <input type="text" name="userName" value="">
+        <br>
+        Password : <input type="password" name="password" value="">
+ 
+        <hr>
+        First Name: <input type="text" name="firstName">
+        <br>
+        Last Name: <input type="text" name="lastName">
+        <br>
+        Gender: <input type="radio" name="gender" value ="M"> Male
+                <input type="radio" name="gender" value="F"> Female
+        <hr>
+        SoThich:
+      <br>
+       <input type="checkbox" name="thethao" value="Bong da">Bong da
+        <br>
+         <input type="checkbox" name="thethao" value="Boi loi">Boi loi
+          <br>
+        <input type="checkbox" name="thethao" value="Dien kinh">Dien kinh
+          <br>
+         <input type="checkbox" name="thethao" value="Cau long">Cau long
+         <br>
+         <input type = "checkbox" name= "thethao" value="Vo thuat">Vo thuat
+         <hr>
+         Select:
+         <br>
+         <select name="TenDanhSach">
+          <option>Danh sách 01</option>
+          <option>Danh sách 02</option>
+          <option>Danh sách 03</option>
+           <option>Danh sách 04</option>
+           
+           </select>
+<hr>
+            Selectmul:
+            <br>
+            <select multiple="multiple">
+            <option>Danh sách 01</option>
+          <option>Danh sách 02</option>
+          <option>Danh sách 03</option>
+           <option>Danh sách 04</option>
+            </select>
+            <hr>
+            File:
+            <br>
+            <input type="file" name="file" id="file" class="file" />
+            <label for="file">Choose a file</label>
+            <hr>
+        Address:
+        <br>
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">  
+        <hr>  
+        Text:
+        <br> 
+      <textarea rows="3" cols="40" placeholder="Đây là vùng nhập text" name="txt"></textarea>
+       <hr>
+        <input type="submit" value="Submit">
+    </form>
+ 
+</div>
+ 
+</body>
+</html>
